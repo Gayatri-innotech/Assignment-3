@@ -1,0 +1,33 @@
+    .box {
+        background-color: rgb(158, 158, 158);
+        border-radius: 10px;
+        max-width: 100%;
+        height: auto;
+        display: flex;
+    }
+    
+    .btn0 {
+        background-color: rgb(0, 155, 226);
+        border: none;
+        color: white;
+        padding: 10px;
+        border-radius: 20px;
+    }
+    
+    .btn1 {
+        background-color: rgb(0, 155, 226);
+        border-radius: 20px;
+        color: white;
+        border: none;
+        padding: 10px;
+        margin-left: 100px;
+    }
+    
+    @media (max-width: 500px) {
+        .btn1 {
+            margin: 0 10px 0 2px;
+        }
+        .btn {
+            margin: 100px 0px 20px 10px;
+        }
+    }
